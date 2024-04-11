@@ -13,7 +13,7 @@ const SecondSection = () => {
   let [changeBanner, setChangeBanner] = useState(false);
   let [swtichBanner, setSwtichBanner] = useState(false);
   let secondBannderHandler = (active) => {
-    setSwtichBanner(!active);
+    setSwtichBanner(active);
   };
   return (
     <div className={SecondSectionCss.main1}>

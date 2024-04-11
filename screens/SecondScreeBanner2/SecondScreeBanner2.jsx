@@ -10,7 +10,7 @@ const SecondScreeBanner2 = ({ banner }) => {
   }, [banner]);
   return (
     <div className={SecondScreenBannerCss.main}>
-      {event ? <PartyEvent /> : <PartyCollection />}
+      {event ? <PartyCollection /> : <PartyEvent />}
     </div>
   );
 };
