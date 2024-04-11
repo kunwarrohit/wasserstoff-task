@@ -1,0 +1,12 @@
+.main{
+    width: 60%; 
+    height : 100%; 
+    display:flex; 
+}
+
+.section{
+    width:90%; 
+    height: 100%; 
+    padding: 1rem; 
+
+}

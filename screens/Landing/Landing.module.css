@@ -1,0 +1,39 @@
+
+.main{
+    width : 100%; 
+    height : 100vh; 
+    background-color: black;
+    display:flex; 
+    justify-content: center;
+    align-items:center;
+    overflow-y: hidden;
+    overflow-x:hidden; 
+}   
+
+
+.firstScreen{
+ width:95%; 
+ height: 100%;
+ background-color: #FFF4DF;
+ padding-top: 4%;
+ padding-left: 4%;
+ display:block;
+}
+.secondScreen{
+    display:block;
+    width:95%; 
+    height: 100vh;
+    background-color: #15181B;
+    /* background-color: white; */
+}
+
+.swtichScreenBtn{
+    background-color : #15181B; 
+    color : #fff; 
+    position:fixed;
+    right: 43rem;
+    padding: 1rem; 
+     font-size : 20px; 
+     border-radius: 10px;
+     top :40rem; 
+}

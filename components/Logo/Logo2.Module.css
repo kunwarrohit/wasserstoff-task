@@ -1,0 +1,10 @@
+.main{
+    display:flex; 
+    padding: 3px ; 
+     width: 30%; 
+     color: #FFCA5F;
+}
+
+.heading{
+    color: #FFCA5F;
+}

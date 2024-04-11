@@ -1,0 +1,51 @@
+.para{
+    height: 70%;
+    width:100% ;
+    border:1px solid rgb(167, 228, 144);
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+    position: relative;
+}
+.imag{
+    height:50% ;
+}
+
+.customizeButton{
+    width: 220.46px;
+    height: 52.71px;
+    color:white;
+    display:flex; 
+    z-index: 100;
+    top : 39rem; 
+    left: 5rem; 
+   cursor : pointer;
+   position: absolute;
+   background-color :black;
+   border-radius: 20px;
+    
+}
+
+.event{
+    width:50%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+}
+
+.collections{
+    width:50%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+.active{
+    background-color: white;
+    color:black; 
+    border-radius: 20px;
+}
