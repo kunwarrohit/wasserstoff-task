@@ -2,6 +2,7 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
+theme: jekyll-theme-THEME-NAME
 name: Deploy Next.js site to Pages
 
 on:
